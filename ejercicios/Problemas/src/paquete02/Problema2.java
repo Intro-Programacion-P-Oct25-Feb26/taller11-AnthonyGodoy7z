@@ -28,6 +28,7 @@ public class Problema2 {
         viviendas = datosVivienda();
         mes = consumoElectrico();
         anual = consumoAnual(mes);
+        mensajeFinal(viviendas, anual);
 
     }
 
@@ -36,7 +37,7 @@ public class Problema2 {
         entrada.useLocale(Locale.US);
         String[] datos = new String[10];
         for (int i = 0; i < 10; i++) {
-            System.out.printf("Ingrese identificador de vivienda %d", i + 1);
+            System.out.printf("Ingrese identificador de vivienda %d\n", i + 1);
             datos[i] = entrada.nextLine();
         }
         return datos;
@@ -48,25 +49,37 @@ public class Problema2 {
         double[][] consumo = new double[10][12];
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 12; j++) {
-                System.out.printf("Ingrese consumo de la vivienda %d en el mes"
-                        + "%d", j + 1, i + 1);
+                System.out.printf("Ingrese consumo de la vivienda %d en el mes "
+                        + "%d\n", i + 1, j + 1);
                 consumo[i][j] = entrada.nextDouble();
             }
         }
         return consumo;
     }
-    
-    public static double[][] consumoAnual(double[][] totalAño) {
-        Scanner entrada = new Scanner(System.in);
-        entrada.useLocale(Locale.US);
+
+    public static double[] consumoAnual(double[][] totalAño) {
         double[] anual = new double[10];
         double suma;
-        for(int i = 0; i < totalAño.length; i++){
+        for (int i = 0; i < totalAño.length; i++) {
             suma = 0;
-            for(int j = 0; j < totalAño[i].length; j++){
+            for (int j = 0; j < totalAño[i].length; j++) {
                 suma = suma + totalAño[i][j];
-                
             }
+            anual[i] = suma;
         }
-}
+        return anual;
+    }
+
+    public static void mensajeFinal(String[] vivi, double[] year) {
+        Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
+        String mensaje = "REPORTE DE CONSUMO ELECTRICO ANUAL \n"
+                + "-----------------------------------------------\n";
+        for (int i = 0; i < vivi.length; i++) {
+            mensaje = String.format("%sEl consumo anual de electricidad de la "
+                    + "vivienda %s en total de %.2f\n", mensaje, vivi[i],
+                    year[i]);
+        }
+        System.out.printf(mensaje);
+    }
 }
