@@ -1,0 +1,5 @@
+Me resulto mas dificl organizar de manera correcta los ciclo for porque no me
+aclaraba en el uso de los corchetes. Me olvide de poner los corchetes y me 
+marcaba como error pero guiandome con los ejercicios ya hechos para arreglarlo.
+La parte de los ciclos donde detecta los pares. El uso correcto de los corchete
+cuando se tiene un arreglo.

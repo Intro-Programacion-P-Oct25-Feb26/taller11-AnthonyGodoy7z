@@ -1,0 +1,5 @@
+Se necesita 4 metodos, mensaje final, datos de las viviendas ingrasados por el
+usuario. Se realizaran 2 metodos para pedir informacion al usuario, esta se
+almacenara en diferentes arreglos ´para retornarlos, otro metodo para el
+procedimiento y otro para el mensaje final. Metodos, Ciclos, Arreglos. Se espera
+tener de resultado mostrar el consumo electrico anual de cada vivienda.

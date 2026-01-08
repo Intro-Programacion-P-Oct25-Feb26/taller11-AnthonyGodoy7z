@@ -1,0 +1,5 @@
+Los datos que va a necesitar los programas son el arreglo y el mensaje que
+mostrara el resultado. Se realizaran dos procedimientos el principal y el 
+procedimiento del ejercico. Intervienen los ciclo for, if,  procedimientos, 
+argumentos, parametros. Se espera que se muestre solo los numeros par de la 
+estructura bidimensional pedida.
