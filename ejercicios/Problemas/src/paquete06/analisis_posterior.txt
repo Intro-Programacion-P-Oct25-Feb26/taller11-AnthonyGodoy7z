@@ -1,0 +1,4 @@
+Al momento se sacar la desviacion no recordaba como usar el math. Puse mal los
+parametros de un metodo pero me percate al final y lo soluciones. La parte de 
+los procesos porque es lo que pide el ejercicio. Utilizar el math. en ciclos y
+mejorar mi organizacion en estos.

@@ -1,0 +1,6 @@
+Se necesitan 3 metodos, arreglo ya establecido. Se tomara el arreglo como
+parametro del metodo principal hacia otro el cual va a retornar la media
+aritmetica, despues otro metodo tomara el arreglo y la media aritmetica como
+parametros para retornar la desviacion estandar del arreglo. Intervienen metodos,
+procedimientos, arreglos, ciclos for. Se espera tener el resultado de la media
+aritmetica la desviacion estandar del arreglo establecido. 

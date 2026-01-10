@@ -1,0 +1,4 @@
+En la suma porque no comprendi lo que pedia el ejercicio. Se podria en el metodo
+main me salte las llaves finales pero me percate y lo solucione. La suma porque
+es lo que se tiene que presentar. Se podria decir que mejore mi organizacion al
+usar ciclos for.

@@ -1,5 +1,5 @@
-Me resulto mas complicado el hacer la suma y mostrar mensaje. Cometi un error al
-momento de hacer la suma porque no le pose que devuelva lo sumado y lo arregle
-al final cuando me percate. La parte de la suma es la mas importante porque es
-lo que se necesita en el problema. Aprendi a como hacer de mejor manera suma de
-arreglos.
+Me resulto mas complicado el hacer la suma y mostrar mensaje porque me confudia 
+en el ciclo for de la suma. Cometi un error al momento de hacer la suma porque 
+no le pose que devuelva lo sumado y lo arregle al final cuando me percate. La 
+parte de la suma es la mas importante porque es lo que se necesita en el 
+problema. Aprendi a como hacer de mejor manera suma de arreglos.

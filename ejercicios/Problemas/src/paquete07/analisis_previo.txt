@@ -1,0 +1,6 @@
+Se necesitara 3 metodos, datos ingresados por el usuario y ciclos. Se envia un
+arreglo de ciudades como parametro del metodo principal a otro para pedir
+ingresar un numero limite de ciudades para que en un ciclo se le pongan nombre,
+en otro metodo se separa las ciudades que tenga 4 o 5 caracteres, despues se
+envian al metodo principal estos datos y se imprime. Metodos, for, procedimiento.
+Como resultado se imprimiran las ciudades que tenga 4 o 5 caracteres.

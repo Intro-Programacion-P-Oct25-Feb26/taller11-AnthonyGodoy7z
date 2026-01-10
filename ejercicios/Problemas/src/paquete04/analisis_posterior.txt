@@ -1,0 +1,5 @@
+La parte de los if cuando queria mandar los parametros a los metodos porque no 
+sabia como ordenarlo bien. En los if porque no me detectaba los paramatros para 
+los metodos y lo solucione poniendo los dos if que tenia en uno solo. La parte 
+del procedimiento porque es lo que se necesita encontrar. Como enviar parametros
+a los metodos de mejor manera

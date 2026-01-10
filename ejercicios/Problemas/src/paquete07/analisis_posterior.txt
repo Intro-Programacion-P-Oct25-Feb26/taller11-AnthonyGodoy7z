@@ -1,0 +1,5 @@
+Al momento de separar las ciudades que tengan 4 o 5 caracteres porque no
+encontraba una manera de hacerlo. Tuve un error al declarar la variable arreglo
+no le puse corchete pero me percate y lo solucione. La parte de imprimir las
+ciudades que tengan 4 o 5 caracteres porque es lo que pide el ejercicio. Mejore
+en como me organizo para realizar ciclos.

@@ -1,0 +1,5 @@
+Se necesita 2 metodos, arreglos, ciclos. Se tomaran los dos arreglos
+bidimensionales como parametros del metodo principal hacia otro metodo el cual 
+realizara la suma de estos en un ciclo for y los retornara. Intervienen metodos,
+procedimientos, for. Se espera tener como resultado la suma de los dos arreglos
+bidimensionales.
