@@ -1,5 +1,5 @@
-Se necesita 4 metodos, mensaje final, datos ingresados por el usuario. Se va a
-pedir lo que el usuario necesite calcual en el metodo principal para despues ir 
-al metodo correspondiente para realizar el procedimiento, pedir los datos e
-imprimir. Metodos, procedimientos, scanner, if. Se espera mostrar la respuesta
-del area calculada que ingrese el usuario.
+Se necesita 4 metodos, datos ingresados por el usuario. Se va a pedir lo que el 
+usuario necesite calcular en el metodo principal para despues ir al metodo 
+correspondiente para realizar el procedimiento, pedir los datos e imprimir. 
+Metodos, procedimientos, scanner, else if. Se espera mostrar la respuesta del 
+area calculada que ingrese el usuario.

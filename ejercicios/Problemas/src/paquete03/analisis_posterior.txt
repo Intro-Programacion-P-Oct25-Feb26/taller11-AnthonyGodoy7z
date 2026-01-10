@@ -1,0 +1,4 @@
+Al momento de crear nuevos metodos para que no retornen nada. En el if no lo 
+puse como un else if y al final me causo un problema pero lo solucione 
+cambiandolo. El proceso de cada metodo porque es lo que se necesita encontrar. 
+La diferencia entre el metodo void.

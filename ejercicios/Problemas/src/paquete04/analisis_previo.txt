@@ -1,0 +1,6 @@
+Se necesita 3 metodos, datos ingresados por el usuario. Se pedira lo que el
+usuario sus dato y lo que necesite calcular en el metodo princial, segun lo que 
+decida se ira a un metodo u otro y estando ahi se pediran los datos 
+correspondientes de cada metodo y se realizara un procedimiento ademas de 
+imprimirlo en el mismo metodo. Metodos,procedimiento, scanner, else if, cadenas.
+Se espera mostrar la respuesta que el usuario con un reporte establecido.

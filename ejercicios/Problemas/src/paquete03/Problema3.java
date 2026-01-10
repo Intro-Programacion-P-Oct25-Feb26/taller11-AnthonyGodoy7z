@@ -25,21 +25,19 @@ public class Problema3 {
         System.out.println("Ingrese que desea calcular(1 = área del cuadrado, "
                 + "2 = área del triángulo, 3 = área del rectángulo)");
         opcion = entrada.nextInt();
-        
-        if (opcion == 1){
+
+        if (opcion == 1) {
             obtenerAreaCuadrado();
-        }
-        if (opcion == 2){
-            triangulo();
-        }
-        if (opcion == 3){
-            rectangulo();
-        } else{
+        }else if (opcion == 2) {
+            obtenerAreaTriangulo();
+        }else if (opcion == 3) {
+            obtenerAreaRectangulo();
+        } else {
             System.out.println("Número invalido");
         }
     }
-    
-    public static void obtenerAreaCuadrado(){
+
+    public static void obtenerAreaCuadrado() {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
         double lado;
@@ -47,6 +45,35 @@ public class Problema3 {
         System.out.println("Ingrese lado del cuadrado");
         lado = entrada.nextDouble();
         area = lado * lado;
-        
+        System.out.printf("El área del cuadrado es %.2f\n", area);
+
+    }
+
+    public static void obtenerAreaTriangulo() {
+        Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
+        double base;
+        double altura;
+        double area;
+        System.out.println("Ingrese base del triángulo");
+        base = entrada.nextDouble();
+        System.out.println("Ingrese altura del triángulo");
+        altura = entrada.nextDouble();
+        area = (base * altura) / 2;
+        System.out.printf("El área del triángulo es %.2f\n", area);
+    }
+
+    public static void obtenerAreaRectangulo() {
+        Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
+        double base;
+        double altura;
+        double area;
+        System.out.println("Ingrese base del rectángulo");
+        base = entrada.nextDouble();
+        System.out.println("Ingrese altura del rectángulo");
+        altura = entrada.nextDouble();
+        area = base * altura;
+        System.out.printf("El área del rectángulo es %.2f\n", area);
     }
 }
